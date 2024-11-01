@@ -5,7 +5,8 @@ ll=int(input("ENTER LOWER LIMIT"))
 ul=int(input("ENTER UPPER LIMIT"))
 f=0
 print("The prime numbers b/w",ll,"and",ul)
-while ll<=ul:                            #control b/w limits
+ll=ll+1
+while ll<ul:                            #control b/w limits
     f=0
     x=1
     for x in range(1,ll+1,1):               
